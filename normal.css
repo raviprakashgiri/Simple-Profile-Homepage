@@ -1,0 +1,31 @@
+body{font-family: 'Helvetica', sans-serif;}
+
+A {
+        BACKGROUND: none transparent scroll repeat 0% 0%; 
+        COLOR: blue; 
+        TEXT-DECORATION: underline
+}
+A:visited {
+        background: none;
+        COLOR: blue
+}
+A:hover {
+        COLOR: darkblue
+        TEXT-DECORATION: underline
+}
+
+
+.sideLink {
+        COLOR: black; 
+        TEXT-DECORATION: none
+}
+.sideLink:visited {
+        COLOR: black
+}
+.sideLink:hover {
+        COLOR: darkred
+}
+.nav{
+        float: left;
+        margin-left: 25px; 
+}
