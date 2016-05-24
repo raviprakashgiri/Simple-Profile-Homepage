@@ -1,4 +1,6 @@
-body{font-family: 'Helvetica', sans-serif;}
+body{font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        -webkit-font-smoothing: antialiased; /* for safari/iphone/ipad */
+        text-rendering: optimizeLegibility; /* for IE */}
 
 A {
         BACKGROUND: none transparent scroll repeat 0% 0%; 
@@ -67,3 +69,9 @@ div#footer li
 .bibliographic-information{margin-left:220px;display:block;padding:10px 0;content:'\00BB\0020';}
 .bibliographic-information h1{margin-top:0}
 .bibliographic-information p{margin-bottom:5px}
+
+ul.minbullets {
+  list-style-type: square;
+  margin-left:25px;
+  padding-left: 0px;
+}
